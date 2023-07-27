@@ -1,0 +1,53 @@
+/* general customizations */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    width: 350px;
+    height: 550px;
+}
+
+#qr-img {
+    border-radius: 20px;
+    margin: 15px;
+    margin-bottom: 25px;
+    max-width: 100%;
+    max-height: 75%;
+}
+
+p {
+    margin: 0 15px 0 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#qr-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#qr-info {
+    color: hsl(220, 15%, 55%);
+    font-size: 18px;
+    font-weight: 400;
+}
